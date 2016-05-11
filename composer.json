@@ -1,0 +1,17 @@
+{
+    "name": "renwuxun/Level5",
+    "license": "proprietary",
+    "type": "library",
+    "authors": [
+        {"name":"renwuxun","email":"229602756@qq.com","homepage":"https://github.com/renwuxun","role":"developer"}
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": { "Level5\\": "lib/", "Level5Test\\":"tests/"}
+    }
+}
