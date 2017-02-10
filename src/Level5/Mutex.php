@@ -1,15 +1,12 @@
 <?php
+
 /**
  * Created by PhpStorm.
  * User: renwuxun
- * Date: 2016/5/9 0009
- * Time: 17:36
+ * Date: 2017/2/8 0008
+ * Time: 16:59
  */
-
-namespace Level5;
-
-
-class Mutex {
+class Level5_Mutex {
 
     private $iKey;
     private $iSemid;
@@ -58,7 +55,7 @@ class Mutex {
     }
 
 
-    private static $instances = [];
+    private static $instances = array();
 
     /**
      * @param $iKey
